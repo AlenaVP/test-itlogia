@@ -1,0 +1,7 @@
+@import 'src/style/ui-kit-typography.scss';
+
+.btn {
+  @extend %btn;
+  height: 60px;
+  background-color: var(--title-primary);
+}
