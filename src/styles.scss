@@ -13,6 +13,11 @@
 }
 
 @font-face {
+  font-family: MullerBlack;
+  src: url('./assets/fonts/MullerBlack.otf');
+}
+
+@font-face {
   font-family: MullerExtraBold;
   src: url('./assets/fonts/MullerExtraBold.otf');
 }
@@ -49,6 +54,18 @@ body {
 	text-rendering: optimizespeed;
 }
 
+ul {
+  list-style: none;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+	cursor: pointer;
+}
+
 .wrapper {
-  width: var(--desktop-size);
+  display: flex;
+	margin: auto;
+  max-width: var(--desktop-size);
 }
