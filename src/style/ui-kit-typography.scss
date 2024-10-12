@@ -7,3 +7,7 @@
 %logo {
 	@include typography('MullerBlack', normal, 500, 2.4rem, 120%, var(--title-primary));
 }
+
+%title-3 {
+	@include typography('Muller', normal, 800, 1.6rem, 120%, var(--title-primary));
+}
