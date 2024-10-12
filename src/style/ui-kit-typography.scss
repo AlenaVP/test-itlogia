@@ -1,0 +1,5 @@
+@import 'src/style/mixins.scss';
+
+%body-1 {
+	@include typography('Muller', normal, 500, 1.6rem, 120%, var(--text-primary));
+}

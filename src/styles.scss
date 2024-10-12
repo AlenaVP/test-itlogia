@@ -1,1 +1,54 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'src/style/ui-kit-typography.scss';
+@import 'src/style/ui-kit-colors.scss';
+
+@font-face {
+  font-family: Muller;
+  src: url('./assets/fonts/MullerRegular.otf');
+}
+
+@font-face {
+  font-family: Muller;
+  src: url('./assets/fonts/MullerBold.otf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: MullerExtraBold;
+  src: url('./assets/fonts/MullerExtraBold.otf');
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+html,
+body {
+	height: 100%;
+}
+
+html {
+	display: flex;
+	min-height: 100%;
+	font-size: var(--base-size);
+	background-color: var(--bg-primary);
+	scroll-behavior: smooth;
+}
+
+body {
+  @extend %body-1;
+	flex: 1;
+	min-height: 100%;
+	text-rendering: optimizespeed;
+}
+
+.wrapper {
+  width: var(--desktop-size);
+}
