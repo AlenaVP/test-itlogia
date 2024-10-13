@@ -3,4 +3,9 @@
 .btn {
   @extend %btn;
   background-color: var(--title-primary);
+  cursor: pointer;
+
+  &:disabled {
+    color: var(--title-secondary);
+  }
 }

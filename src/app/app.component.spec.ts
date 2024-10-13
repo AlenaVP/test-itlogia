@@ -27,6 +27,12 @@ export class MockCardListComponent { }
 })
 class MockHeaderComponent { }
 
+@Component({
+  selector: 'app-order',
+  template: `<p></p>`,
+})
+class MockOrderComponent { }
+
 describe('AppComponent', () => {
   beforeEach(() => TestBed.configureTestingModule({
     imports: [RouterTestingModule],
@@ -36,6 +42,7 @@ describe('AppComponent', () => {
       MockCardComponent,
       MockCardListComponent,
       MockHeaderComponent,
+      MockOrderComponent,
     ]
   }));
 

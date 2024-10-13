@@ -8,4 +8,6 @@ import { Component, Input } from '@angular/core';
 export class ButtonComponent {
   @Input() height = '60px';
   @Input() width!: string;
+  @Input() disabled = false;
+  @Input() type = 'button';
 }

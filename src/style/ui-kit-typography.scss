@@ -16,6 +16,10 @@
 	@include typography('Muller', normal, 500, 1.4rem, 120%, var(--card-text));
 }
 
+%text-form {
+	@include typography('Muller', normal, 500, 1.8rem, 120%, var(--text-secondary));
+}
+
 %title-1 {
 	@include typography('MullerExtraBold', normal, 800, 4.5rem, 120%, var(--text-primary));
 }

@@ -1,3 +1,9 @@
-<button type="button" class="btn" [style.width]="width" [style.height]="height">
+<button
+  [attr.type]="type"
+  class="btn"
+  [style.width]="width"
+  [style.height]="height"
+  [disabled]="disabled"
+>
   <ng-content></ng-content>
 </button>
