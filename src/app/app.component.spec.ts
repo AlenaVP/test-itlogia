@@ -16,6 +16,12 @@ class MockAboutComponent { }
 export class MockCardComponent { }
 
 @Component({
+  selector: 'app-card-list',
+  template: `<p></p>`,
+})
+export class MockCardListComponent { }
+
+@Component({
   selector: 'app-header',
   template: `<p></p>`,
 })
@@ -24,7 +30,13 @@ class MockHeaderComponent { }
 describe('AppComponent', () => {
   beforeEach(() => TestBed.configureTestingModule({
     imports: [RouterTestingModule],
-    declarations: [MockAboutComponent, MockCardComponent, MockHeaderComponent, AppComponent]
+    declarations: [
+      AppComponent,
+      MockAboutComponent,
+      MockCardComponent,
+      MockCardListComponent,
+      MockHeaderComponent,
+    ]
   }));
 
   it('should create the app', () => {

@@ -1,0 +1,17 @@
+@import 'src/style/ui-kit-typography.scss';
+
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  margin: auto;
+  max-width: var(--desktop-size);
+}
+
+@media (max-width: 930px) {
+  .cards-container {
+    max-width: var(--middle-size);
+  }
+}

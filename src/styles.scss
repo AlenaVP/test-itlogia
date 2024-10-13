@@ -77,3 +77,9 @@ a {
 .highlight {
 	color: var(--title-primary);
 }
+
+.section__title {
+	@extend %title-2;
+	margin-bottom: 53px;
+	text-align: center;
+}
