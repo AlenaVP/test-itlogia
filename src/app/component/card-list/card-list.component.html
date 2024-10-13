@@ -1,0 +1,8 @@
+<section id="pizzas">
+  <h2 class="section__title">Выберите свою любимую пиццу</h2>
+  <div class="wrapper">
+    <div class="cards-container">
+      <app-card *ngFor="let card of cards" [pizza]="card"></app-card>
+    </div>
+  </div>
+</section>

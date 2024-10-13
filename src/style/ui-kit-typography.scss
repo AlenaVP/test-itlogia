@@ -1,0 +1,41 @@
+@import 'src/style/mixins.scss';
+
+%body-1 {
+	@include typography('Muller', normal, 500, 1.6rem, 120%, var(--text-primary));
+}
+
+%btn {
+	@include typography('Muller', normal, 800, 1.6rem, 120%, var(--card-title));
+}
+
+%logo {
+	@include typography('MullerBlack', normal, 500, 2.4rem, 120%, var(--title-primary));
+}
+
+%text-card {
+	@include typography('Muller', normal, 500, 1.4rem, 120%, var(--card-text));
+}
+
+%text-form {
+	@include typography('Muller', normal, 500, 1.8rem, 120%, var(--text-secondary));
+}
+
+%title-1 {
+	@include typography('MullerExtraBold', normal, 800, 4.5rem, 120%, var(--text-primary));
+}
+
+%title-2 {
+	@include typography('Muller', normal, 800, 3.5rem, 150%, var(--title-secondary));
+}
+
+%title-2-1 {
+	@include typography('MullerExtraBold', normal, 800, 3.5rem, 120%, var(--title-secondary));
+}
+
+%title-3 {
+	@include typography('Muller', normal, 800, 1.6rem, 120%, var(--title-primary));
+}
+
+%title-card {
+	@include typography('Muller', normal, 800, 1.8rem, 120%, var(--card-title));
+}
