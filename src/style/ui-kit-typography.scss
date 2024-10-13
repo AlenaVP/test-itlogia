@@ -4,8 +4,16 @@
 	@include typography('Muller', normal, 500, 1.6rem, 120%, var(--text-primary));
 }
 
+%btn {
+	@include typography('Muller', normal, 800, 1.6rem, 120%, var(--card-title));
+}
+
 %logo {
 	@include typography('MullerBlack', normal, 500, 2.4rem, 120%, var(--title-primary));
+}
+
+%text-card {
+	@include typography('Muller', normal, 500, 1.4rem, 120%, var(--card-text));
 }
 
 %title-1 {
@@ -16,6 +24,6 @@
 	@include typography('Muller', normal, 800, 1.6rem, 120%, var(--title-primary));
 }
 
-%btn {
-	@include typography('Muller', normal, 800, 1.6rem, 120%, var(--card-title));
+%title-card {
+	@include typography('Muller', normal, 800, 1.8rem, 120%, var(--card-title));
 }
