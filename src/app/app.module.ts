@@ -14,6 +14,7 @@ import { CardComponent } from './component/card/card.component';
 import { CardListComponent } from './component/card-list/card-list.component';
 import { FooterComponent } from './component/footer/footer.component';
 import { HeaderComponent } from './component/header/header.component';
+import { ModalComponent } from './component/modal/modal.component';
 import { OrderComponent } from './component/order/order.component';
 
 @NgModule({
@@ -26,6 +27,7 @@ import { OrderComponent } from './component/order/order.component';
     CardListComponent,
     FooterComponent,
     HeaderComponent,
+    ModalComponent,
     OrderComponent,
   ],
   imports: [

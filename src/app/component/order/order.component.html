@@ -9,6 +9,7 @@
       pattern="[^.]*"
       placeholder="Ваше имя"
       #name="ngModel"
+      (input)="onNameInput($event)"
     />
     <div *ngIf="name.invalid && (name.dirty || name.touched)">
       <div *ngIf="name.errors?.['required']" class="error-message">Name is required.</div>
@@ -56,3 +57,9 @@
     Оформить заказ
   </app-button>
 </form>
+
+<app-modal
+  [isVisible]="isModalVisible"
+  [message]="modalMessage"
+  (isModalClosed)="onModalClose($event)"
+></app-modal>

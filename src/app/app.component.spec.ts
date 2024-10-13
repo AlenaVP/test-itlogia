@@ -34,6 +34,12 @@ class MockFooterComponent { }
 class MockHeaderComponent { }
 
 @Component({
+  selector: 'app-modal',
+  template: `<p></p>`,
+})
+class MockModalComponent { }
+
+@Component({
   selector: 'app-order',
   template: `<p></p>`,
 })
@@ -49,6 +55,7 @@ describe('AppComponent', () => {
       MockCardListComponent,
       MockFooterComponent,
       MockHeaderComponent,
+      MockModalComponent,
       MockOrderComponent,
     ]
   }));
