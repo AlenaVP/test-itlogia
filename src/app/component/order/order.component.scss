@@ -3,26 +3,12 @@
 form {
   display: flex;
   flex-direction: column;
-  max-width: 330px;
+  width: 330px;
   margin: auto;
 }
 
-input {
-  @extend %text-form;
-  padding: 10px;
-  border: 1px solid var(--text-primary);
-  border-radius: unset;
-  width: 100%;
-  margin-bottom: 23px;
-}
-
-input:focus {
-  border-width: 2px;
-  outline: none;
-}
-
 .input-container {
-  max-height: 66px;
+  max-height: 66px + 23px;
 }
 
 .error-message {

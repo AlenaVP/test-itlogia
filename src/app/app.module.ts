@@ -12,6 +12,7 @@ import { AdvertisementComponent } from './component/advertisement/advertisement.
 import { ButtonComponent } from './component/button/button.component';
 import { CardComponent } from './component/card/card.component';
 import { CardListComponent } from './component/card-list/card-list.component';
+import { FooterComponent } from './component/footer/footer.component';
 import { HeaderComponent } from './component/header/header.component';
 import { OrderComponent } from './component/order/order.component';
 
@@ -23,6 +24,7 @@ import { OrderComponent } from './component/order/order.component';
     ButtonComponent,
     CardComponent,
     CardListComponent,
+    FooterComponent,
     HeaderComponent,
     OrderComponent,
   ],

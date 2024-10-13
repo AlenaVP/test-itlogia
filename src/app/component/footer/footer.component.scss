@@ -1,0 +1,16 @@
+@import 'src/style/ui-kit-typography.scss';
+
+:host {
+  & .wrapper {
+    align-items: end;
+  }
+}
+
+.footer__block {
+  margin-right: 116px;
+  width: 377px;
+
+  & .section__title {
+    text-align: left;
+  }
+}

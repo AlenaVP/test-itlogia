@@ -7,7 +7,7 @@
       ngModel
       required
       pattern="[^.]*"
-      placeholder="Name:"
+      placeholder="Ваше имя"
       #name="ngModel"
     />
     <div *ngIf="name.invalid && (name.dirty || name.touched)">
@@ -24,7 +24,7 @@
       ngModel
       required
       pattern="[^.]*"
-      placeholder="Address:"
+      placeholder="Адрес доставки"
       #address="ngModel"
     />
     <div *ngIf="address.invalid && (address.dirty || address.touched)">
@@ -40,7 +40,7 @@
       ngModel
       required
       pattern="[^.]*"
-      placeholder="Phone:"
+      placeholder="Телефон"
       #phone="ngModel"
     />
     <div *ngIf="phone.invalid && (phone.dirty || phone.touched)">
@@ -53,6 +53,6 @@
     [disabled]="orderForm.invalid!"
     width="100%"
   >
-    Order
+    Оформить заказ
   </app-button>
 </form>

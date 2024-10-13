@@ -28,6 +28,10 @@
 	@include typography('Muller', normal, 800, 3.5rem, 150%, var(--title-secondary));
 }
 
+%title-2-1 {
+	@include typography('MullerExtraBold', normal, 800, 3.5rem, 120%, var(--title-secondary));
+}
+
 %title-3 {
 	@include typography('Muller', normal, 800, 1.6rem, 120%, var(--title-primary));
 }

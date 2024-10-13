@@ -22,6 +22,12 @@ export class MockCardComponent { }
 export class MockCardListComponent { }
 
 @Component({
+  selector: 'app-footer',
+  template: `<p></p>`,
+})
+class MockFooterComponent { }
+
+@Component({
   selector: 'app-header',
   template: `<p></p>`,
 })
@@ -41,6 +47,7 @@ describe('AppComponent', () => {
       MockAboutComponent,
       MockCardComponent,
       MockCardListComponent,
+      MockFooterComponent,
       MockHeaderComponent,
       MockOrderComponent,
     ]
